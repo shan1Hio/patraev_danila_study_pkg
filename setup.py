@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ldps-06',
-    maintainer_email='krotov@example.com',
+    maintainer='shan1Hio',
+    maintainer_email='roflanmoment@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'first_node = patraev_danila_study_pkg.first_node:main'
         ],
     },
 )
