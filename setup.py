@@ -24,7 +24,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'first_node = patraev_danila_study_pkg.first_node:main'
+            'talker = patraev_danila_study_pkg.talker:main',
+            'listener = patraev_danila_study_pkg.listener:main',
+            'even_number_publisher = patraev_danila_study_pkg.even_number_publisher:main',
+            'overflow_listener = patraev_danila_study_pkg.overflow_listener:main',
         ],
     },
 )

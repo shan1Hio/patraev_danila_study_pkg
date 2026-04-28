@@ -1,0 +1,30 @@
+[0.404s] Invoking command in '/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg': PYTHONPATH=/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/patraev_danila_study_pkg build --build-base /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/build install --record /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/install.log --single-version-externally-managed install_data
+[0.537s] running egg_info
+[0.545s] writing build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/PKG-INFO
+[0.545s] writing dependency_links to build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/dependency_links.txt
+[0.545s] writing entry points to build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/entry_points.txt
+[0.546s] writing requirements to build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/requires.txt
+[0.546s] writing top-level names to build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/top_level.txt
+[0.562s] reading manifest file 'build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/SOURCES.txt'
+[0.563s] writing manifest file 'build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info/SOURCES.txt'
+[0.563s] running build
+[0.563s] running build_py
+[0.563s] copying patraev_danila_study_pkg/even_number_publisher.py -> /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/build/lib/patraev_danila_study_pkg
+[0.563s] copying patraev_danila_study_pkg/overflow.py -> /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/build/lib/patraev_danila_study_pkg
+[0.563s] running install
+[0.567s] running install_lib
+[0.576s] copying /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/build/lib/patraev_danila_study_pkg/even_number_publisher.py -> /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg
+[0.576s] copying /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/build/lib/patraev_danila_study_pkg/overflow.py -> /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg
+[0.576s] byte-compiling /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg/even_number_publisher.py to even_number_publisher.cpython-312.pyc
+[0.576s] byte-compiling /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg/overflow.py to overflow.cpython-312.pyc
+[0.576s] running install_data
+[0.576s] running install_egg_info
+[0.586s] removing '/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.586s] Copying build/patraev_danila_study_pkg/patraev_danila_study_pkg.egg-info to /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg-0.0.0-py3.12.egg-info
+[0.586s] running install_scripts
+[0.651s] Installing even_number_publisher script to /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/patraev_danila_study_pkg
+[0.651s] Installing listener script to /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/patraev_danila_study_pkg
+[0.651s] Installing overflow script to /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/patraev_danila_study_pkg
+[0.651s] Installing talker script to /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/patraev_danila_study_pkg
+[0.651s] writing list of installed files to '/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/install.log'
+[0.669s] Invoked command in '/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg' returned '0': PYTHONPATH=/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/patraev_danila_study_pkg build --build-base /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/build install --record /home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/build/patraev_danila_study_pkg/install.log --single-version-externally-managed install_data

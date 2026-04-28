@@ -1,0 +1,2 @@
+[console_scripts]
+talker = patraev_danila_study_pkg.talker:main

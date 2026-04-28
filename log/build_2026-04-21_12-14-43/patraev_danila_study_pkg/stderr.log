@@ -1,0 +1,5 @@
+  File "/home/ldps-06/ros2_ws/src/patraev_danila_study_pkg/install/patraev_danila_study_pkg/lib/python3.12/site-packages/patraev_danila_study_pkg/even_number_publisher.py", line 14
+    self.publisher = self.create_publisher(Int32 'even_numbers', 10)
+                                                 ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
