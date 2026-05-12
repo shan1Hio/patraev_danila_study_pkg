@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-import rclpy                        # главная библиотека ROS 2
-from rclpy.node import Node         # от неё наследуемся
-from std_msgs.msg import Int32    # тип сообщения — строка
+import rclpy                       
+from rclpy.node import Node         
+from std_msgs.msg import Int32    
 
 class overflow_l(Node):
 
     def __init__(self):
-        # Даём узлу имя "listener"
         super().__init__('overflow_l')
         self.subscription = self.create_subscription(
             Int32,
@@ -21,15 +20,15 @@ class overflow_l(Node):
         self.get_logger().info(f"[WARN] [overflow_l]:!!! OVERFLOW !!! Resulting number is {msg.data}")
 
 def main():
-    rclpy.init()                    # стартуем ROS 2
-    node = overflow_l()               # создаём наш узел
+    rclpy.init()                    
+    node = overflow_l()            
     try:
-        rclpy.spin(node)            # крутимся и ждём сообщений
+        rclpy.spin(node)           
     except KeyboardInterrupt:
-        pass                        # Ctrl+C — нормально выходим
+        pass                        
     finally:
-        node.destroy_node()         # убираем узел
-        rclpy.shutdown()            # завершаем ROS 2
+        node.destroy_node()         
+        rclpy.shutdown()            
 
 if __name__ == '__main__':
     main()
